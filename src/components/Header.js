@@ -9,7 +9,7 @@ const Header = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
-              <p class="text-white mb-0">Free Shipping Over $100 & Free Returns</p>
+              <p className="text-white mb-0">Free Shipping Over $100 & Free Returns</p>
             </div>
             <div className="col-6">
               <p className="text-end text-white mb-0">
@@ -28,7 +28,7 @@ const Header = () => {
               </h2>
             </div>
             <div className="col-5">
-              <div class="input-group">
+              <div className="input-group">
                 <input 
                   type="text" 
                   className="form-control py-2" 
@@ -124,7 +124,7 @@ const Header = () => {
                 <div className='menu-links'>
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to='/'>Home</NavLink>
-                    <NavLink to='/'>Our Store</NavLink>
+                    <NavLink to='/store'>Our Store</NavLink>
                     <NavLink to='/'>Blogs</NavLink>
                     <NavLink to='/contact'>Contact</NavLink>
                   </div>
