@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { BsLinkedin, BsGithub, BsYoutube, BsInstagram } from 'react-icons/bs'
 
 const Footer = () => {
+  let url = '';
   return (
     <>
       <footer className='py-4'>
@@ -54,16 +55,16 @@ const Footer = () => {
                   navdeepdahiya753@gmail.com
                 </a>
                 <div className="social_icons d-flex align-items-center gap-30 mt-4">
-                  <a className='text-white' href="#">
+                  <a className='text-white' href={url}>
                     <BsLinkedin className='fs-4' />
                   </a>
-                  <a className='text-white' href="#">
+                  <a className='text-white' href={url}>
                     <BsInstagram className='fs-4' />
                   </a>
-                  <a className='text-white' href="#">
+                  <a className='text-white' href={url}>
                     <BsGithub className='fs-4' />
                   </a>
-                  <a className='text-white' href="#">
+                  <a className='text-white' href={url}>
                     <BsYoutube className='fs-4' />
                   </a>
                 </div>
