@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { HiOutlineArrowLeft } from 'react-icons/hi'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
+import blog from "../images/blog-1.jpg"
 
 
 const SingleBlog = () => {
@@ -20,7 +21,7 @@ const SingleBlog = () => {
                             <h3 className="title">
                                 A Beautiful Sunday Morning Renaissance
                             </h3>
-                            <img src="images/blog-1.jpg" alt="blog" className='img-fluid w-100 my-4' />
+                            <img src={blog} alt="blog" className='img-fluid w-100 my-4' />
                             <p>
                                 You're only as good as your last collection, which  is an enormous pressure. I think there is something about luxury - it's not something people need, but it's what they want. It really pulls at their heart. I have a fantastic relationship with money. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim beatae, id ex facere esse consectetur reprehenderit autem cum libero, quis commodi pariatur. Porro temporibus aut pariatur ducimus.
                             </p>
