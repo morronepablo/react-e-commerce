@@ -20,7 +20,7 @@ const SpecialProduct = () => {
                             count={5}
                             size={24}
                             value={4}
-                            edit='false'
+                            edit={false}
                             activeColor="#ffd700"
                         />
                         <p className="price">
